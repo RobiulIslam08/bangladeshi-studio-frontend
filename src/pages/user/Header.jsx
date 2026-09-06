@@ -27,7 +27,7 @@ const Header = () => {
         <div className="flex items-center gap-4 py-2">
           <img src="/frontsite/logo.jpeg" alt="logo" className="w-[60px] max-w-full" />
           <div>
-            <h1 className="text-xl md:text-2xl font-semibold text-[#424242]">MGC Studeo</h1>
+            <h1 className="text-xl md:text-2xl font-semibold text-[#424242]">Bangladeshi Studio</h1>
             <p className="text-[#424242] text-xs md:text-sm">is Trusted Document Site.</p>
           </div>
         </div>

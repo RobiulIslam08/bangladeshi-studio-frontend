@@ -69,7 +69,7 @@ const Login = () => {
                 {/* Brand / Logo */}
                 <div className="text-center mb-6">
                     <h1 className="text-2xl font-extrabold text-[#1E40AF]">
-                        MGC Studeo
+                        Bangladeshi Studio
                     </h1>
                 </div>
 
@@ -198,7 +198,7 @@ const Login = () => {
 
                 {/* Copyright */}
                 <p className="mt-6 text-center text-[10px] text-gray-400 uppercase tracking-tighter">
-                    © {new Date().getFullYear()} MGC Studeo • Secure Login
+                    © {new Date().getFullYear()} Bangladeshi Studio • Secure Login
                 </p>
             </div>
         </div>

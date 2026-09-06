@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="flex items-center gap-4">
           <img src="/frontsite/logo.jpeg" alt="logo" className="w-[60px] rounded-full" />
           <div className="flex flex-col">
-            <h1 className="text-xl md:text-2xl font-semibold text-white">MGC Studeo</h1>
+            <h1 className="text-xl md:text-2xl font-semibold text-white">Bangladeshi Studio</h1>
             <p className="text-[#b1aaaa] text-sm">is Trusted Document Site.</p>
           </div>
         </div>

@@ -7,6 +7,7 @@ export default function DashboardLayout({ children, title = "Dashboard" }) {
   const navItems = useMemo(() => {
     return [
       { key: "Home", label: "Home", icon: "home", href: "/dashboard" },
+      { key: "NewAzeer", label: "New Azeer", icon: "fileText", href: "/dashboard/ajeer" },
     
       {
         key: "Image",
@@ -69,7 +70,7 @@ const Role = user.role || "No Title Found";
       {/* Sidebar */}
       <aside
         className={[
-          "fixed z-50 md:z-30 top-0 left-0 h-full w-[280px] bg-[#071A3A] text-white",
+          "no-print fixed z-50 md:z-30 top-0 left-0 h-full w-[280px] bg-[#071A3A] text-white",
           "border-r border-white/10",
           "transform transition-transform duration-300",
           mobileOpen ? "translate-x-0" : "-translate-x-full",
@@ -82,7 +83,7 @@ const Role = user.role || "No Title Found";
             <span className="font-bold text-lg text-white">BS</span>
           </div>
           <div className="leading-tight">
-            <div className="font-semibold">MGC Studeo</div>
+            <div className="font-semibold">Bangladeshi Studio</div>
             <div className="text-xs text-slate-200/80">Dashboard Panel</div>
           </div>
         </div>
@@ -154,7 +155,7 @@ const Role = user.role || "No Title Found";
       </aside>
 
       {/* Top Header */}
-      <header className="sticky top-0 z-20 bg-white border-b border-slate-200 md:pl-[280px]">
+      <header className="no-print sticky top-0 z-20 bg-white border-b border-slate-200 md:pl-[280px]">
         <div className="h-[68px] px-4 md:px-6 flex items-center gap-3">
           <button
             type="button"
@@ -210,10 +211,10 @@ const Role = user.role || "No Title Found";
       </header>
 
       {/* Page Content */}
-      <main className="p-4 md:p-6 md:pl-[280px]">{children}</main>
+      <main className="azeer-print-main p-4 md:p-6 md:pl-[280px]">{children}</main>
 
       {/* Footer */}
-      <div className="text-xs text-slate-500 pb-6 md:pl-[280px] px-4 md:px-6">
+      <div className="no-print text-xs text-slate-500 pb-6 md:pl-[280px] px-4 md:px-6">
         © {new Date().getFullYear()} Bangladeshistudeo — Dashboard UI
       </div>
     </div>

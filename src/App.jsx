@@ -16,6 +16,7 @@ import MedicalReportCreate from "./pages/dashboard/medical/MedicalReportCreate.j
 import MedicalReportSearch from "./pages/dashboard/medical/MedicalReportSearch.jsx";
 import Document from "./pages/dashboard/document/DocumentManagement.jsx";
 import VisaForm from "./pages/dashboard/visa/VisaCreate.jsx";
+import NewAzeer from "./pages/dashboard/ajeer/NewAzeer.jsx";
 // 
 import Logout from "./Logout.jsx";
 
@@ -61,6 +62,7 @@ export default function App() {
         <Route path="/dashboard/medical/MedicalReportSearch" element={<ProtectedRoute><MedicalReportSearch /></ProtectedRoute>} />
         <Route path="/dashboard/document" element={<ProtectedRoute><Document /></ProtectedRoute>} />
         <Route path="/dashboard/visa" element={<ProtectedRoute><VisaForm /></ProtectedRoute>} />
+        <Route path="/dashboard/ajeer" element={<ProtectedRoute><NewAzeer /></ProtectedRoute>} />
 
         {/* ইউজার প্রোফাইল (শুধুমাত্র সাধারণ ইউজারের জন্য) */}
         <Route 
