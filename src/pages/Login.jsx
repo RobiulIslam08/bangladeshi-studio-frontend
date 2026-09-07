@@ -77,7 +77,7 @@ const Login = () => {
                 <div className="bg-white shadow-xl rounded-2xl p-6 md:p-8">
                     <img 
                         className="w-[60px] h-[60px] mx-auto mb-4 rounded-full object-cover border" 
-                        src="/frontsite/Logo.png" 
+                        src="/frontsite/logo.jpeg" 
                         alt="Logo" 
                     />
                     
